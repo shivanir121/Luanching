@@ -1,0 +1,87 @@
+/* ===================================global styling=================== */
+
+body
+{
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+.goldText
+{
+  background: -webkit-linear-gradient(#bf953f,#fcf6ba,#b38728);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main
+{
+    width: 100%;
+    background:  url(img/background.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* =============================header===================================  */
+
+ .headerContent
+ {
+    font-size: 24px;
+   
+ }
+
+ /*================================ middle part of body=====================  */
+
+.launching{
+       font-size: 26px;
+ }
+
+.heroText                              
+{
+  font-size: 85px;
+}
+
+.content
+{
+  padding-top: 192px;
+  height: 86vh;
+}
+
+.email
+{
+    border: 2px solid #ffc107;
+    padding: 5px;
+    background-color: black;
+   
+}
+input:active, input:focus{
+  outline: none;
+}
+
+input{
+ caret-color: #b38728;
+}
+
+.submitBtn
+{
+  padding: 5px 22px;
+}
+
+/*===================================== footer===============================  */
+
+.copyright-text
+{
+  font-size: 15px;
+  padding: 18px;
+  background-color: black;
+}
+
